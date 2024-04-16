@@ -1,0 +1,32 @@
+---
+import Nav from "../layouts/nav.astro";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro + TailwindCSS</title>
+	</head>
+
+	<body>
+		<Nav>
+			<div class="p-4 sm:ml-64">
+				<div
+					class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700 mt-14"
+				>
+					<div class="grid grid-cols-4 gap-4">
+						<div class="border-2">hello</div>
+						<div class="border-2">hi</div>
+						<div class="border-2">may</div>
+						<div class="border-2">i</div>
+						<div class="border-2">help</div>
+						<div class="border-2">you</div>
+					</div>
+				</div>
+			</div>
+		</Nav>
+	</body>
+</html>
