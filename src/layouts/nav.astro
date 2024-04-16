@@ -321,9 +321,9 @@ import { ViewTransitions } from "astro:transitions";
 		<slot />
 
 		<script>
-			// handle flowbite interactivity
 			import { initFlowbite } from "flowbite";
 			document.addEventListener("astro:page-load", () => {
+				// handle flowbite interactivity
 				initFlowbite();
 			});
 		</script>
